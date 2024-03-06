@@ -35,9 +35,6 @@ Before running the code, ensure you have the following:
 
 ```
 pip install -r requirements.txt
-
-
-
 ```
 
 3. Open the `config.py` file and replace the placeholders with your actual API keys:
@@ -59,9 +56,6 @@ To fetch data from Twitter and save it to JSON and Excel files, follow these ste
 
    ```
    python twitter_data_ingestion.py
-
-
-
    ```
 4. The script will fetch the data from Twitter, save it to a JSON file, and then export it to an Excel file.
 
