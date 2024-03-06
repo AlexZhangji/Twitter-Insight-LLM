@@ -1,4 +1,4 @@
-# Twitter-Insight💡: Data Ingestion, Analysis, Image caption and More
+# Twitter-Insight💡: Data Scraping, Analysis, Image caption and More
 
 [中文Readme](README_zh.md)
 
