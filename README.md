@@ -4,9 +4,11 @@
 
 This project enables you to fetch liked tweets from Twitter (using Selenium), save it to JSON and Excel files, and perform initial data analysis and image captions.	
 
-This is part of the initial steps for a larger personal project involving Large Language Models (LLMs). Stay tuned for more updates!
+This is part of the initial steps for a larger personal project involving Large Language Models (LLMs). 
+Stay tuned for more updates!
 
-Example of Exported Excel sheets & Visualizations:
+
+### Example of Exported Excel sheets & Visualizations:
 
 ![Sample Images](images/sample_excel_with_data_viz.png)
 
