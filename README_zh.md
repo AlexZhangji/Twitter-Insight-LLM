@@ -1,12 +1,13 @@
-# Twitter-Insight：
+# Twitter-Insight💡
 
-<pre><div class="code-block flex flex-col bg-bg-300 rounded-lg -mb-0.5 full-width"><div><div class="code-block__code !my-0 !rounded-xl !text-sm !leading-relaxed"><code class="language-markdown"><span class="token">[</span><span class="token">English README</span><span class="token">](</span><span class="token">README.md</span><span class="token">)</span></code></div></div></div></pre>
+[Readme in English](README.md)
 
-这个项目允许你从 Twitter 获取点赞数据 (基于Selenium)，将其保存为 JSON 和 Excel 文件，并提供一些初步的数据分析和data visualization.
+这个项目允许你从 Twitter 获取点赞数据 (基于Selenium)，将其保存为 JSON 和 Excel 文件，并提供一些初步的数据分析和data visualization和图片标注.
 
 这是个人项目的初始阶段，会有更多跟大型语言模型相关的部分.
 
 之后会有更多更新！
+
 
 导出的 Excel 表格和可视化示例：
 
@@ -16,7 +17,7 @@
 
 [Demo](https://www.youtube.com/watch?v=UA35W-aWQZk)
 
-## 运行之前
+## 运行准备
 
 在运行代码之前，请确保你具备以下条件：
 
@@ -28,6 +29,9 @@
   - FAQs部分有视频流程.
 
 * OpenAI的API Key(可选,如果你想试试图像描述功能的话)
+
+
+## Setup
 
 1. 克隆这个仓库或者下载项目文件
 2. 命令行里跑一下,把需要的Python库都装上:

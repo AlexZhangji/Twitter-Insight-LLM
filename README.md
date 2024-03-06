@@ -1,8 +1,8 @@
-# Twitter-Insight: Data Ingestion, Analysis, Image caption and More
+# Twitter-Insight💡: Data Ingestion, Analysis, Image caption and More
 
-<pre><div class="code-block flex flex-col bg-bg-300 rounded-lg -mb-0.5 full-width"><div><div class="code-block__code !my-0 !rounded-xl !text-sm !leading-relaxed"><code class="language-markdown"><span class="token">[</span><span class="token">中文版本</span><span class="token">](</span><span class="token">README_zh.md</span><span class="token">)</span></code></div></div></div></pre>
+[中文Readme](README_zh.md)
 
-This project enables you to fetch liked tweets from Twitter (using Selenium), save it to JSON and Excel files, and perform initial data analysis using Python and Jupyter Notebook.
+This project enables you to fetch liked tweets from Twitter (using Selenium), save it to JSON and Excel files, and perform initial data analysis and image captions.	
 
 This is part of the initial steps for a larger personal project involving Large Language Models (LLMs). Stay tuned for more updates!
 
