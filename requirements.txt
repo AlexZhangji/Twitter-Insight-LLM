@@ -1,0 +1,6 @@
+openai>=1.11.1
+pandas
+plotly
+plotly-calplot
+selenium
+tenacity
