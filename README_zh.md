@@ -58,7 +58,7 @@ pip install -r requirements.txt
 - 设置你要获取数据的 Twitter 页面的 URL（例如，`https://twitter.com/ilyasut/likes`）。
 - 指定数据范围的开始和结束日期（格式为 YYYY-MM-DD, 比如2023-09-21）。
 
-3. 通过执行以下命令运行脚本：
+3. 通过执行以下命令运行脚本 (更推荐在IDE里直接跑)：
 
 ```
 python twitter_data_ingestion.py
