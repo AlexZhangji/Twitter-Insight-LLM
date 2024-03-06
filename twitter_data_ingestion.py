@@ -33,7 +33,7 @@ class TwitterExtractor:
         return driver
 
     def set_token(self, auth_token=TWITTER_AUTH_TOKEN):
-        if not auth_token:
+        if not auth_token or auth_token == "YOUR_TWITTER_AUTH_TOKEN_HERE":
             raise ValueError("Access token is missing. Please configure it properly.")
         expiration = (datetime.now() + timedelta(days=7)).strftime("%Y-%m-%d")
         cookie_script = f"document.cookie = 'auth_token={auth_token}; expires={expiration}; path=/';"
@@ -41,7 +41,7 @@ class TwitterExtractor:
 
     def fetch_tweets(self, page_url, start_date, end_date):
         self.driver.get(page_url)
-        cur_filename = f"tweets_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
+        cur_filename = f"data/tweets_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
 
         # Convert start_date and end_date from "YYYY-MM-DD" to datetime objects
         start_date = datetime.strptime(start_date, "%Y-%m-%d")
@@ -294,7 +294,7 @@ class TwitterExtractor:
             file.write("\n")
 
     @staticmethod
-    def _save_to_excel(json_filename, output_filename="data.xlsx"):
+    def _save_to_excel(json_filename, output_filename="data/data.xlsx"):
         # Read JSON data
         cur_df = pd.read_json(json_filename, lines=True)
 
@@ -310,8 +310,8 @@ if __name__ == "__main__":
     scraper = TwitterExtractor()
     scraper.fetch_tweets(
         "https://twitter.com/GZhan5/likes",
-        start_date="2024-02-01",
-        end_date="2024-02-29",
+        start_date="2024-03-01",
+        end_date="2024-03-05",
     )  # YYYY-MM-DD format
 
     # If you just want to export to Excel, you can use the following line
