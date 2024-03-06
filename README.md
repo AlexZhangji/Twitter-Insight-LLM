@@ -53,7 +53,7 @@ To fetch data from Twitter and save it to JSON and Excel files, follow these ste
 - Set the URL of the Twitter page you want to fetch data from (e.g., `https://twitter.com/ilyasut/likes`).
 - Specify the start and end dates for the data range (in YYYY-MM-DD format).
 
-3. Run the script by executing the following command:
+3. Run the script by executing the following command (recommend run this in IDE directly):
 
    ```
    python twitter_data_ingestion.py
