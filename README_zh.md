@@ -9,7 +9,7 @@
 之后会有更多更新！
 
 
-导出的 Excel 表格和可视化示例：
+## 导出的 Excel 表格和可视化示例：
 
 ![示例图片](images/sample_excel_with_data_viz.png)
 
@@ -38,9 +38,6 @@
 
 ```
 pip install -r requirements.txt
-
-
-
 ```
 
 3. 打开 `config.py`,把你的API Key填进去:
@@ -62,9 +59,6 @@ pip install -r requirements.txt
 
 ```
 python twitter_data_ingestion.py
-
-
-
 ```
 
 4. 该脚本将从 Twitter 获取数据，将其保存到 JSON 文件中，然后将其导出到 Excel 文件中。
