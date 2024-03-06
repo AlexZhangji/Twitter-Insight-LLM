@@ -9,7 +9,7 @@
 之后会有更多更新！
 
 
-导出的 Excel 表格和可视化示例：
+## 导出的 Excel 表格和可视化示例：
 
 ![示例图片](images/sample_excel_with_data_viz.png)
 
@@ -38,9 +38,6 @@
 
 ```
 pip install -r requirements.txt
-
-
-
 ```
 
 3. 打开 `config.py`,把你的API Key填进去:
@@ -58,13 +55,10 @@ pip install -r requirements.txt
 - 设置你要获取数据的 Twitter 页面的 URL（例如，`https://twitter.com/ilyasut/likes`）。
 - 指定数据范围的开始和结束日期（格式为 YYYY-MM-DD, 比如2023-09-21）。
 
-3. 通过执行以下命令运行脚本：
+3. 通过执行以下命令运行脚本 (更推荐在IDE里直接跑)：
 
 ```
 python twitter_data_ingestion.py
-
-
-
 ```
 
 4. 该脚本将从 Twitter 获取数据，将其保存到 JSON 文件中，然后将其导出到 Excel 文件中。

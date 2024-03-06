@@ -1,12 +1,14 @@
-# Twitter-Insight💡: Data Ingestion, Analysis, Image caption and More
+# Twitter-Insight💡: Data Scraping, Analysis, Image caption and More
 
 [中文Readme](README_zh.md)
 
 This project enables you to fetch liked tweets from Twitter (using Selenium), save it to JSON and Excel files, and perform initial data analysis and image captions.	
 
-This is part of the initial steps for a larger personal project involving Large Language Models (LLMs). Stay tuned for more updates!
+This is part of the initial steps for a larger personal project involving Large Language Models (LLMs). 
+Stay tuned for more updates!
 
-Example of Exported Excel sheets & Visualizations:
+
+### Example of Exported Excel sheets & Visualizations:
 
 ![Sample Images](images/sample_excel_with_data_viz.png)
 
@@ -33,9 +35,6 @@ Before running the code, ensure you have the following:
 
 ```
 pip install -r requirements.txt
-
-
-
 ```
 
 3. Open the `config.py` file and replace the placeholders with your actual API keys:
@@ -53,13 +52,10 @@ To fetch data from Twitter and save it to JSON and Excel files, follow these ste
 - Set the URL of the Twitter page you want to fetch data from (e.g., `https://twitter.com/ilyasut/likes`).
 - Specify the start and end dates for the data range (in YYYY-MM-DD format).
 
-3. Run the script by executing the following command:
+3. Run the script by executing the following command (recommend run this in IDE directly):
 
    ```
    python twitter_data_ingestion.py
-
-
-
    ```
 4. The script will fetch the data from Twitter, save it to a JSON file, and then export it to an Excel file.
 
