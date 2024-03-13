@@ -2,7 +2,7 @@
 
 [Readme in English](README.md)
 
-这个项目允许你从 Twitter 获取点赞数据 (基于Selenium)，将其保存为 JSON 和 Excel 文件，并提供一些初步的数据分析和data visualization和图片标注.
+这个项目允许你从 Twitter 获取点赞/发帖/bookmark等数据 (基于Selenium)，将其保存为 JSON 和 Excel 文件，并提供一些初步的数据分析和data visualization和图片标注.
 
 这是个人项目的初始阶段，会有更多跟大型语言模型相关的部分.
 
