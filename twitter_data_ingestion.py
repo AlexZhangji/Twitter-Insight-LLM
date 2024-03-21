@@ -300,6 +300,10 @@ class TwitterExtractor:
 
         # Drop duplicates & save to Excel
         cur_df.drop_duplicates(subset=["url"], inplace=True)
+        # 定义非法字符的正则表达式
+        ILLEGAL_CHARACTERS_RE = re.compile(r'[\000-\010]|[\013-\014]|[\016-\037]')
+        # 使用正则表达式替换非法字符
+        cur_df = cur_df.replace(ILLEGAL_CHARACTERS_RE, '', regex=True)
         cur_df.to_excel(output_filename, index=False)
         logger.info(
             f"\n\nDone saving to {output_filename}. Total of {len(cur_df)} unique tweets."
