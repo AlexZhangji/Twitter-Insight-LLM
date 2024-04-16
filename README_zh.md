@@ -2,7 +2,7 @@
 
 [Readme in English](README.md)
 
-这个项目允许你从 Twitter 获取点赞数据 (基于Selenium)，将其保存为 JSON 和 Excel 文件，并提供一些初步的数据分析和data visualization和图片标注.
+这个项目允许你从 Twitter 获取点赞/发帖/bookmark等数据 (基于Selenium)，将其保存为 JSON 和 Excel 文件，并提供一些初步的数据分析和data visualization和图片标注.
 
 这是个人项目的初始阶段，会有更多跟大型语言模型相关的部分.
 
@@ -23,12 +23,12 @@
 
 - 所需的 Python 库（在 `requirements.txt` 中列出）
 - Twitter Auth Token (不是API key, 我们不需要那个)
-  - 简单步骤:
-  - - 浏览器到你已经登陆的twitter.com
+  - 不到一分钟的简单步骤:
+    - 浏览器到你已经登陆的twitter.com
     - 按F12 (打开dev tools) -> 点击Application -> Cookies -> Twitter.com -> auth_key
   - FAQs部分有视频流程.
 
-* OpenAI的API Key(可选,如果你想试试图像描述功能的话)
+* OpenAI的API Key(可选项,只有图像描述功能会用到)
 
 
 ## Setup
@@ -112,4 +112,4 @@ python twitter_data_ingestion.py
 - 项目的初始结构和部分Selenium代码参考了 [Twitter-Scrapper](https://github.com/Mostafa-Ehab/Twitter-Scrapper)。
 - 图像标题功能由 OpenAI API 提供支持。你应该能够使用 Gemini 1.0 实现类似的结果。
 
-如有任何问题或疑问，请在存储库中提出问题。
+如有任何问题或疑问，请在issue中提出问题。
