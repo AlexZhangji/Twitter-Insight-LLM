@@ -8,10 +8,24 @@
 
 之后会有更多更新！
 
-
 ## 导出的 Excel 表格和可视化示例：
 
 ![示例图片](images/sample_excel_with_data_viz.png)
+
+## (新增!) 实验版基于自然语言的图片搜索
+
+新增了一个免费且不需要GPU支持的image embedding 和配套的前端. (支持多语言, 虽然还是英文效果更好.)
+
+比如这里是搜索 "黑猫"的结果, 你还可以搜索 "一群人合影",   "workflow graphs" 或者更抽象的 "sadness" 这类的.
+
+![](images/image_search_black_cats.png)
+
+如何运行:
+
+- 首先确保已经有下载好的数据, 图片下载需要基于之前的twitter数据 (包含图片地址)
+- 在notebook中运行新增加的 `download_images `
+- 在console中 `streamlit run image_search_webapp.py ` 并根据里面提示自动embed图片即可. 不需要重复embed.
+
 
 ## Demo Video
 
@@ -29,7 +43,6 @@
   - FAQs部分有视频流程.
 
 * OpenAI的API Key(可选项,只有图像描述功能会用到)
-
 
 ## Setup
 
@@ -104,8 +117,6 @@ python twitter_data_ingestion.py
 ## 贡献
 
 欢迎贡献代码!如果你发现了bug或者有改进建议,请提交issue或者pull request
-
-    
 
 ## 致谢
 
