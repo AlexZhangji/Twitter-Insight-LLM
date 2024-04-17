@@ -13,8 +13,7 @@ Stay tuned for more updates!
 
 
 
-## (new!) Experimental Nartual Language Based Image Search
-
+## (new!) Experimental Embedding Based Image Search: Search unlabeled images with nartual language. 
 A new free image embedding tool with a supporting frontend that does not require GPU support has been added. (Supports multiple languages, although the results are better in English.)
 
 For example, here are the results for a searchon "black cat" (in Chinese) but you can also searchfor "a group of people in a photo," "workflow graphs," or more abstract concepts like "sadness."
