@@ -121,6 +121,6 @@ Contributions to this project are welcome. If you find any issues or have sugges
 ## Acknowledgements
 
 - Initial structure and parts of the Selenium code inspired by [Twitter-Scrapper](https://github.com/Mostafa-Ehab/Twitter-Scrapper).
-- The image captioning feature is powered by the OpenAI API. You should be able to achieve similar results using Gemini 1.0.
+- The image captioning feature is powered by the OpenAI API. You should be able to achieve similar results using Gemini 1.0 or Claude Haiku.
 
 For any questions or issues, please open an issue in the repository.
