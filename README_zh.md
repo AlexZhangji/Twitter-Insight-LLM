@@ -26,7 +26,6 @@
 - 在notebook中运行新增加的 `download_images `
 - 在console中 `streamlit run image_search_webapp.py ` 并根据里面提示自动embed图片即可. 不需要重复embed.
 
-
 ## Demo Video
 
 [Demo](https://www.youtube.com/watch?v=UA35W-aWQZk)
@@ -121,6 +120,6 @@ python twitter_data_ingestion.py
 ## 致谢
 
 - 项目的初始结构和部分Selenium代码参考了 [Twitter-Scrapper](https://github.com/Mostafa-Ehab/Twitter-Scrapper)。
-- 图像标题功能由 OpenAI API 提供支持。你应该能够使用 Gemini 1.0 实现类似的结果。
+- 图像标题功能由 OpenAI API 提供支持。你应该能够使用 Gemini 1.0 或Claude Haiku实现类似的结果。
 
 如有任何问题或疑问，请在issue中提出问题。
